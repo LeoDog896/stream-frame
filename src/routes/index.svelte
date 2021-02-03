@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import successkid from 'images/successkid.jpg';
 	import InformationalPage from '../components/InformationalPage'
 </script>
