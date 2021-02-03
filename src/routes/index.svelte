@@ -1,5 +1,6 @@
 <script>
 	import successkid from 'images/successkid.jpg';
+	import InformationalPage from '../components/InformationalPage'
 </script>
 
 <style>
@@ -37,14 +38,18 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>StreamFrame</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<InformationalPage>
 
-<figure>
-	<img alt="Success Kid" src="{successkid}">
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
+	<h1>An open source video editor in the web.</h1>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+	<figure>
+		<img alt="Success Kid" src="{successkid}">
+		<figcaption>Have fun with Sapper!</figcaption>
+	</figure>
+
+	<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+
+</InformationalPage>
